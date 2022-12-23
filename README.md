@@ -14,13 +14,19 @@ Projeto feito inteiramente em React com TypeScript e visa a criação de uma int
 
 ## Tópicos 
 
-[Sobre o Github Finder](#sobre-o-blog)
+[Preview](#preview)
+
+[Sobre o Github Finder](#sobre-o-finder)
 
 [Tecnologias](#tecnologias)
 
 [Instalação e uso](#instalação-e-uso)
 
 <br>
+
+## Preview
+
+Para um preview da aplicação basta entrar em https://github-finder-nine-theta.vercel.app/
 
 ## Sobre o Finder
 
