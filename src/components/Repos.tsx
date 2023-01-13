@@ -16,13 +16,6 @@ const Repos = () => {
     setRepos(data);
   }
 
-  useEffect(() => {
-    setTimeout(() => {
-      loadRepos();
-      setIsLoading(false);
-    }, 2000) //! Só para mostrar o componente renderizando
-  }, [])
-
   return (
     <div className={classes.geral}>
       <div>
@@ -31,7 +24,7 @@ const Repos = () => {
             <h2>{item.name}</h2>
             <p>{item.description}</p>
             <p>{item.language}</p>
-            <a href={`https://github.com/${username}/${item.name}`}>Ir para o repositório</a>
+            <a href={`https://github.com/${username}/${item.name}`} target="_blank">Ir para o repositório</a>
         </div>
       ))}
       </div>
