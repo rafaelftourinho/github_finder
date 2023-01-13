@@ -16,6 +16,11 @@ const Repos = () => {
     setRepos(data);
   }
 
+  useEffect(() => {
+      loadRepos();
+      setIsLoading(false);
+  }, [])
+
   return (
     <div className={classes.geral}>
       <div>
